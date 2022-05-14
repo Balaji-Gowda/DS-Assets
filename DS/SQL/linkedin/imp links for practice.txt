@@ -1,0 +1,16 @@
+SQL is still one of the main tools for data analysts and data scientists. Here are the top 5 resources I really recommend to upgrade SQL skills.
+
+Pick one of them as your favorite, and let us improve together:
+
+1. This is an interactive book that aims to be the best place on the internet for learning SQL. It is free of charge, free of ads and doesn't require registration or downloads. https://selectstarsql.com/
+
+2. A New Way to Learn, LeetCode is the best platform to help you enhance your skills, expand your knowledge, and prepare for technical interviews.
+https://lnkd.in/g3c5JGC
+
+3. CodeAcademy, the best system for learning to code.
+Seven years and 45 million learners later, we've perfected it.
+https://lnkd.in/gT5xmpN
+
+4. The inmates of SQLzoo are the SQL engines (MySQL, Oracle, SQL Server and others). https://sqlzoo.net/
+
+5. SQLBolt, a series of interactive lessons and exercises designed to help you quickly learn SQL right in your browser. https://sqlbolt.com/

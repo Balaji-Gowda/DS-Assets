@@ -1,0 +1,7 @@
+%%HTML
+<style type="text/css">
+table.dataframe td, table.dataframe th {
+    border: 1px  red solid !important;
+  color: black !important;
+}
+</style>

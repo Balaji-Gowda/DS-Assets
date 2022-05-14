@@ -1,0 +1,18 @@
+Mr Bose  - Interview Questions on Tools	
+SQL	Level
+
+1	What are the different constraints in SQL?
+2	What is a primary key and foreign key?
+3	What are the different types of join?
+4	What is a self join and a cross join?
+5	What are the differnent types of relationships in SQL?
+6	What is a view ?
+7	What is normalization and denormalization?
+8	What is the difference between truncate and delete?
+9	What is the difference between OLTP and OLAP?
+10	what is the difference between where and having?
+11	What is order of execution?
+12	How you can change a table or a column name?
+13	What is stored Procedure?
+14	What is ERR?
+15	What is an Entity?

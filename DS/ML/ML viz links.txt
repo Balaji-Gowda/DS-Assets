@@ -1,0 +1,19 @@
+Mastering 📈Data Visualization📈 for Data Scientists:
+
+💹All relevant data visualizations to find the right one and get inspired on how to make it:
+https://lnkd.in/gBZSzFx
+
+📊 Quick and Easy Data Visualizations in Python
+https://lnkd.in/fXJ-_Y8
+
+📉10 Useful Python Data Visualization Libraries
+https://lnkd.in/fBxbHwr
+
+📈Top Matplotlib Visualizations in Python
+https://lnkd.in/fGrnGax
+
+💹 Matplotlib Tutorial – A Complete Guide to Python
+https://lnkd.in/fFkUgQP
+
+📊Interactive Data Visualization in Python With Bokeh.
+https://lnkd.in/fEfQAvg

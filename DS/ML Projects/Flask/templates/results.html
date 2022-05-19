@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <div style="text-align: center; color: Green; margin-top: 50px">
+      <b>The Student has {{status}}ed with {{score}} marks.</b>
+      {%if score <35%}
+      <h1>the student failed with score</h1>
+      {%elif score<45%}
+      <h1>the student score is below 45</h1>
+      {%elif score<55%}
+      <h1>the student score is below 55</h1>
+      {%else%}
+      <h1>score is above 55</h1>
+      {%endif%}
+
+      <table style='border: 1px solid black;width:100%;color:red;border-color:green;border-collapse: collapse;border-radius: 10px;'>
+        <tr style='border: 1px solid black;width:100%;color:red;border-color:green;border-collapse: collapse;border-radius: 10px;'>
+          <th style='border: 1px solid black;color:red;border-color:green;border-collapse: collapse;border-radius: 10px;'>Type</th>
+          <th style='border: 1px solid black;color:red;border-color:green;border-collapse: collapse;border-radius: 10px;'>age</th>
+          </tr>
+          {%for key,val in dct.items()%}
+        </tr>
+
+        <tr style='border: 1px solid black;width:100%;color:red;border-color:green;border-radius: 10px;'>
+          <td style='border: 1px solid black;color:red;border-color:green;border-collapse: collapse;border-radius: 10px;'>{{key}}</td>
+          <td style='border: 1px solid black;color:red;border-color:green;border-collapse: collapse;border-radius: 10px;'>{{val}}</td>
+        </tr>
+
+        {%endfor%}
+      </table>
+    </div>
+  </body>
+</html>

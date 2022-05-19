@@ -1,0 +1,68 @@
+
+Balaji J
+Data Scientist
+
+Kuppam, Andhra Pradesh 517426
+09701660072
+balajibrucelee1511@gmail.com
+Twitter: https://twitter.com/JBalajiGowdaMSC
+LinkedIn: www.linkedin.com/in/balaji-j-msc
+
+Professional Summary
+
+Focused Programmer Analyst Trainee offering dedication to delivering effective technical solutions with strong mindset of learning new technologies, exponential upgradation of Skillset, good analytical, statistical problem solving skills and eagerly waiting to drive career towards Data Science.
+
+Work History
+
+December 2020 to Current
+Cognizant Technology Solutions Bangalore, Karnataka
+Programmer Analyst Trainee    
+
+Performed ETL operations inside Azure Cloud.
+worked for Price List Generation Automated Project.
+Worked in designing UI for Bundling Simulation using Python and Django.
+
+Education
+
+Madanapalle Institute of Technology And Science Madanapalle
+Bachelor of Technology Electronics And Communications Engineering 
+
+Certifications
+
+Masters in Data Science from Top Mentor
+Projects
+
+Capstone Project:
+An Machine Learning based project to predict bank customers' status of loan and to group them into clusters based on certain features.
+Spam SMS Classifier:
+An Natural Language Processing based project which classifies input message as SPAM or HAM using sentimental Analysis.
+
+Skills
+
+Python  
+
+Tableau  
+
+Machine Learning  
+
+Natural Language Processing  
+
+MySql  
+
+Data visualizations  
+
+R  
+
+Azure Cloud  
+
+Agile Methodology  
+
+Qlik Sense  
+
+Data Processing  
+
+Analytical skills  
+
+Statistics  
+
+Microsoft Excel  

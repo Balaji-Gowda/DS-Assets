@@ -1,0 +1,109 @@
+- Experience of design, building and deployment of NLP models in industry , Data science is must.
+
+
+- Proficient in Python & SQL
+
+- Experience in NLP tools like Gensim, spacy, Stanford NLP, BERT/ELMO
+
+- Understanding of NLP techniques for text representation, semantic extraction techniques,
+
+data structures, and modeling.
+
+- Deep understanding of text representation techniques (such as n-grams, bag of words,
+
+sentiment analysis, etc), statistics and classification algorithms.
+
+- Experience on NLP, NLU, NLG is a Big Plus
+
+- Hands on with Deep learning frameworks like Keras, Pytorch, Tensorflow
+
+- Hands on with open source tools like
+
+- Knowledge of Python packages and tools, particularly those developed for NLP techniques
+
+- Experience with text, image analytics, NLP, Entity Extraction, Text Mining Algorithms
+
+- Must be an expert python programmer
+
+
+Anchor ML development track in a client project
+Data collection, profiling, EDA & data preparation
+AI Model development, experimentation, tuning & validation
+Present findings to business users & project management teams
+Propose ML based solution approaches & estimates for new use cases
+Contribute to AI based modules in Infosys solutions development
+Explore new advances in AI continuously and execute PoCs
+Mentoring – guide junior team members & evangelize AI in organization Technical skills
+Programming: Python, R, SQL
+ML algorithms: o Statistical ML algorithms o Deep Neural Network architectures o Model ensembling o Generative AI models o ML for Responsible AI
+AI domains - NLP, speech, computer vision, structured data
+Learning patterns – supervised, unsupervised, reinforcement learning
+Tools for data analysis, auto ML, model deployment & scaling
+Knowledge of datasets, pre-built models available in open community and 3rd party providers
+Knowledge of software development & architectures
+Knowledge of hyperscalers & their AI capabilities – Azure, AWS, GCP
+
+
+
+Skills
+
+Google BigQuery, Microsoft Excel, R, pyhton, Excellent Communication Skills, project manament, Leadership
+
+
+Hi everyone my team looking for Data Engineer with experience in python,SQL,GCP,AWS.
+
+SQL Python Tensorflow Pyspark SAS Advanced Analytics Keras Knime
+
+NLP BERT Machine Learning IT Skills Python Software Development Testing Data Science
+
+In-depth knowledge of the AWS stack (RA3, Redshift, Lambda, Glue, SnS).
+Experience in data modeling, ETL development and data warehousing.
+
+Experience with big data tools: Hadoop, Spark, Kafka, etc.
+Experience with relational SQL and NoSQL databases, including Postgres, Cassandra, MongoDB.
+Experience with cloud AI services from AWS, Google, Azure
+Experience with optimization tools: Gurobi, CPLEX, etc.
+Experience with object-oriented/object function scripting languages: Python, Java, C++, Scala, etc.
+
+2+ years professional experience in software development in languages like Python, spark. Experience in data processing with Python, SQLUnderstanding of natural language processing concepts and python scientific libraries like NLTK, spacy, Gensim, NMT, Extraction, Classification, Intent, Semantics, NER, BERT, Marian,T5, BART, Transformers, Embedding (Word2Vec, ELMO, Glove), Attention Models, LSTM, RNN, OCR/ICR, OpenCV, Contours SegmentationUnderstanding of building data pipeline on Azure Data Factory, Azure functions, Data Transformations,Experience in design/implementation/consulting experience training ML models and deploying scoring pipelines at scale. Experience of using tools like Azure ML Studio, Azure Databricks, IBM Watson Studio will be advantage.Understanding of Explainable AI.Experience with DL toolkits such as MXNet, TensorFlow, Caffe and Torch.Deployment- Pipelines, Flask, Django,Fast Api, TensorFlow Servings, Django, Micro services,Dockers, Kube-FlowExperience with source control GITExperience in .Net/node.js/Java or web technologies will be added advantage.Understanding of contact center related technologies/speech analytics/Speech Modelling, using various digital techniques will be helpful.
+
+You will need to have:Mandatory skills:Experience in machine learning, statistical modeling, quantitative analysis, Forecasting, data visualization, recommendation engine etc.5 + years professional experience in software development in languages like Python, R, Spark & SQL. Experience in Tensor flow, keras, transformers, Sci-kit learn, python librariesExperience in design/implementation/consulting experience training ML models and deploying scoring pipelines at scale
+
+Leetcode
+share profile link if you have one
+HackerRank
+share profile link if you have one
+Codechef
+share profile link if you have one
+Codeforces
+share profile link if you have one
+GeeksforGeeks
+share profile link if you have one
+
+
+Data engineer skills
+
+Python, GCP Certified|GCP, Hadoop, Hive, Spark, ETL, SQL, NoSQL, Python, Data Warehouse
+
+PySparkPySpark
+Google Cloud DataflowGoogle Cloud Dataflow
+NoSQLNoSQL
+HBaseHBase
+Data FlowData Flow
+Google DataFusionGoogle DataFusion
+· 3· 3
+DataStageDataStage
+HiveHive
+Apache PigApache Pig
+TeradataTeradata
+SqoopSqoop
+Google Cloud Pub/SubGoogle Cloud Pub/Sub
+AirflowAirflow
+Data ProcData Proc
+Data ModelingData Modeling
+Data MigrationData Migration
+MapReduceMapReduce
+NumPyNumPy
+Apache ZooKeeperApache ZooKeeper
+PandasPandas
+Project Management

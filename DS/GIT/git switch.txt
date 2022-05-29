@@ -1,0 +1,51 @@
+$ git branch --set-upstream-to=origin/main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+
+$ git pull --rebase origin main
+Successfully rebased and updated refs/heads/main.
+
+		Delete files from github
+
+$ git reset <file>
+$ git rm <file>
+$ git add .
+$ git commit -m "Deleted the file from the git repository"
+$ git remote add origin <link>
+$ git push -u origin main
+
+$ git push
+
+		Delete folder from github
+
+$ git rm -r --cached folderName
+
+
+		last 3 commits
+
+$ git log --oneline -10
+
+		uncommit something
+$ git reset --hard 2277c98
+		Heroku 
+>heroku version
+>heroku login
+>heroku create mlpp --buildpack heroku/python
+	Creating ⬢ mlpp... done
+	Setting buildpack to 	heroku/python... done
+	https://mlpp.herokuapp.com/ | 	https://git.heroku.com/mlpp.git
+>git clone https://github.com/Balaji-Gowda/StreamLit-App.git
+
+
+requirements:
+	>pipreqs(requirements.txt)
+	>Procfile(web: sh setup.sh && streamlit run ML.py)
+	>setup.sh(mkdir -p ~/.streamlit
+echo "[server]
+headless = true
+port = $PORT
+enableCORS = false
+" > ~/.streamlit/config.toml)
+	>app.py
+
+

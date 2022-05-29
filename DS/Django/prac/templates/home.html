@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SampleModel</title>
+    <script type="text/javascript">
+        function sedt()
+        {
+        var ip,tab,tr,td,filter,i,disdata;
+        ip=document.getElementById("ddl");
+        filter=ip.value.toUpperCase();
+        table=document.getElementById("t1");
+        tr=table.getElementsByTagName("tr");
+        for(i=0;i< tr.length;i++)
+        {
+            td=tr[i].getElementsByTagName("td")[2];
+           
+            if(td){
+                disdata=td.innerText;
+                alert(disdata.toUpperCase().indexOf(filter))
+                if(disdata.toUpperCase().indexOf(filter)> -1){
+                    tr[i].style.display="";
+                }
+                else{
+                    tr[i].style.display="none";
+                }
+            }
+    
+        }
+        }
+    </script>
+</head>
+<body>
+    <br>
+    <div  style="width: 25%;float: left; margin-left: 5%;">
+    <select id="ddl" onchange="sedt()">
+        <option disabled="true" selected>--select country--</option>
+        <option value="UK">UK</option>
+        <option value="US">US</option>
+        <option value="italy">ITALY</option>
+        <option value="china">CHINA</option>
+    </select>
+    </div>
+    <div style="width: 70%; float: left;">
+    <table border="2" id="t1"  style="width: 90%;">
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>PLACE</th>
+        </tr>
+        {% for i in lis%}
+        <tr>
+            <td>{{i.Id}}</td>
+            <td>{{i.Name}}</td>
+            <td>{{i.Place}}</td>
+        </tr>
+        {%endfor%}
+
+        
+    </table>
+    </div>
+</body>
+</html>

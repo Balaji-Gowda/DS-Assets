@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div style="text-align: center;">
+    
+
+    {% if user.is_authenticated%}
+    Hello {{user.username}}
+    <h1><a href="accounts/logout" >logout</a></h1>
+    <h1><a href="farming/index" >farming</a></h1>
+    {%else%}
+    <h1><a href="accounts/register" >register</a></h1>
+    <h1><a href="accounts/login" >login</a></h1>
+    {%endif%}
+</div>
+<h1>Hiii {{name}}!!!  !!!</h1>
+
+
+<form action="add" method="POST">
+{% csrf_token %}
+    enter num1: <input type="text" name="num1"><br>
+    enter num2: <input type="text" name="num2"><br>
+   <button type="submit">ADD</button>
+
+</form>
+<br>
+<br>
+<div style="width: 20%; float: left;margin-left: 10%;">
+<form action="index">
+    <label for="cars">Choose a car:</label>
+  <select name="cars" id="cars">
+      {%for i in headLis %}
+    <option value="{{i.head}}">{{i.head}}</option>
+    {% endfor%}
+  </select>
+  <input type="submit">
+</form>
+    <br>
+    <br>
+    
+    
+</div>
+<div style="width: 70%;float: left;">
+    <table style="width: 80%; margin-left: 10%;" class="table-bordered">
+       <thead style=" text-align: center;">
+       <th>id</th>
+       <th>header</th>
+       <th>offer</th>
+    </thead>
+    {%for i in headLis%}
+    <tr style=" text-align: center;">
+       <td>{{i.id}}</td>
+       <td>{{i.head}}</td>
+       <td>{{i.off}}</td>
+    </tr>
+    {%endfor%}
+    </table>
+ </div>
+<br>
+<label for="cars">Choose a car:</label>
+  <select name="cars" id="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+  </select>
+<br><br><br><br><br><br><br>
+
+ <p style="border: 1px solid rgba(6, 7, 6, 0.842);position: absolute;margin-left: 47.5%;">DEMo</p>
+ <br><br>
+ <p style="text-align: center;">DJANGO</p>
+ <center>
+     hi
+ </center>
+ 
+ 
+{% endblock %}

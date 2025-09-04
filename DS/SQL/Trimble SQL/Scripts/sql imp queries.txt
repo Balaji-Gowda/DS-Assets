@@ -1,0 +1,35 @@
+--check null columns
+SELECT COLUMN_NAME, IS_NULLABLE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'PROJCostHistoryFact'
+  AND COLUMN_NAME IN ('Company_Code', 'Job_Number', 'Phase_Code', 'Cost_Type', 'System_Key', 'Type');
+
+
+-- add not null condition
+
+  ALTER TABLE PROJCostHistoryFact
+ALTER COLUMN Phase_Code VARCHAR(20) NOT NULL;
+
+
+
+--add primary key
+	  ALTER TABLE PROJCostHistoryFact
+ADD CONSTRAINT PK_PROJCostHistoryFact 
+PRIMARY KEY (
+ Company_Code, 
+      Job_Number, 
+      Phase_Code, 
+      Cost_Type, 
+      System_Key, 
+      Type
+);
+
+--change tracking
+
+select CHANGE_TRACKING_CURRENT_VERSION()
+SELECT * FROM CHANGETABLE(CHANGES dbo.CostHistoryFact, 59520) a
+
+ALTER TABLE PROJCostHistoryFact
+ENABLE CHANGE_TRACKING
+WITH (TRACK_COLUMNS_UPDATED = ON);
+
